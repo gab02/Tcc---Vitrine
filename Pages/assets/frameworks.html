@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FrameWorks</title>
+    <!--Aqui estão organizadas todas as bibliotecas de frameworks, plugins e javascript que serão utilizadas
+    no estilo das páginas-->
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css"
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!-- CSS Files -->
+    <link href="/assets/css/material-dashboard.css" rel="stylesheet" />
+    <!--CSS da framework-->
+    <!--Qualquer arquivo de estilo a mais que precise ser instanciado deve ficar na pasta /assets/css-->
+</head>
+
+<body>
+    <!--SCRIPTS DA PÁGINA DEVEM SER INSERIDOS ANTES DO FECHAMENTO DA TAG BODY-->
+    <!--Script da sidebar (PARA AS PÁGINAS QUE TIVEREM A SIDEBAR-->
+    <script>
+        function wrap() {
+            if (document.getElementById("sidebarId").style.width == "250px" &&
+                document.getElementById("main").style.marginLeft == "250px") {
+                document.getElementById("sidebarId").style.width = "0px"
+                document.getElementById("main").style.marginLeft = "0px"
+            } else {
+                document.getElementById("sidebarId").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+        }
+    </script>
+
+    <!--JS HELPERS-->
+    <script src="assets/Helpers/js/estados-cidades.js"></script>
+
+    <!--Scripts do material dashboard-->
+    <!--   Core JS Files   -->
+    <script src="assets/css/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/css/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="assets/css/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="assets/css/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+    <!-- Chartist JS -->
+    <script src="assets/css/js/plugins/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="assets/css/js/plugins/bootstrap-notify.js"></script>
+
+    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="assets/css/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
+
+</body>
+
+</html>

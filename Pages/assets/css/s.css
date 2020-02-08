@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 27, 2019, 1:05:00 AM
+    Author     : Igor
+*/
+
+/*-- CSS da página de Login --*/
+.div_login_header {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #78797b;
+	background-color: #e2e2e2;
+	border-top-left-radius: 10px; 
+	border-top-right-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	width: 15em;
+	height: 3em;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.5em;
+	margin-top: 7em;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	float: none;
+}
+.div_login_body {
+	font-weight: bold;
+	color: #424242;
+	background-color: #ffffff;
+	border-bottom-left-radius: 10px; 
+	border-bottom-right-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	width: 1em;
+	
+	font-size: 1.5em;
+	margin:auto;
+	position: relative;
+	float: none;
+}
+.botao_login {
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 90%;
+	color: white;
+	text-decoration-color: white;
+	font-weight: bold;
+	background-image: linear-gradient(to right, #fe803f, #be3663);
+}
